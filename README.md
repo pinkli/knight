@@ -1,5 +1,5 @@
 <p align="center">
-<img src="/assets/gameplay-screenshot.png">
+<img src="assets/gameplay-screenshot.png">
 </p>
 
 > 1254 AD
