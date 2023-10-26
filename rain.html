@@ -17,7 +17,7 @@
                 const output = noiseBuffer.getChannelData(0);
 
                 for (let i = 0; i < bufferSize; i++) {
-                    output[i] = random() * 0.2 - 1;
+                    output[i] = Math.random() * 0.2 - 1;
                 }
 
                 track.audioSource.buffer = noiseBuffer;
