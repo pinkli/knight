@@ -346,12 +346,12 @@ compiler.run((tasks) => {
             }),
             tasks.combine(),
             tasks.output(__dirname + '/build/index.html'),
-            tasks.label('Building ZIP'),
-            tasks.zip('index.html'),
+            // tasks.label('Building ZIP'),
+            // tasks.zip('index.html'),
 
-            // Regular zip
-            tasks.output(__dirname + '/build/game.zip'),
-            tasks.checkSize(__dirname + '/build/game.zip'),
+            // // Regular zip
+            // tasks.output(__dirname + '/build/game.zip'),
+            // tasks.checkSize(__dirname + '/build/game.zip'),
 
             
 
